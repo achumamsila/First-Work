@@ -1,0 +1,258 @@
+/**this is the body**/
+body{
+ font-family: 'Lato', sans-serif;
+ background-image: url(1.jpg);
+
+ 
+}
+/**foter**/
+.footer{
+  position: fixed;
+  bottom: 0px; 
+  padding-left: 5pc;
+  margin: 0px;
+  }
+
+/**this controls the overlay of the navigation bar**/
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(27, 15, 15, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+ 
+/**this controls the alignment of the words in the navigation bar**/
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/**this controls the words in the navigation bar**/
+
+.overlay a {
+  
+  text-decoration: none;
+  font-size: 36px;
+  color: rgb(105, 64, 11);
+  display: block;
+  transition: 0.3s;
+}
+
+/**this changes the color of words in the navigation bar when you click one**/
+
+.overlay a:hover, .overlay a:focus {
+  color: white;
+}
+
+/**this is the close button of the navigation bar**/
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+/**this is the navigation bar**/
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+
+/**this is the picture*/
+
+img {
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/**this is the fieldset aligned at center of the page**/
+
+fieldset{
+  text-align: center;
+}
+/**this is the heading**/
+h1 {
+  text-align: center;
+  color: rgb(10, 6, 6);
+  font-size: 50px;
+  font-family: cursive;
+  text-transform: uppercase;
+  text-decoration: initial;
+}
+/**this is the address**/
+em {
+  font-size: 25px;
+  font-family: cursive;
+  text-align: center;
+
+}
+ /**this is the header**/
+h3 {
+  font-size: 50px;
+  text-align: center;
+  font-family: fantasy;
+  }
+
+/**this is the paragraph**/
+
+p {
+  text-align: center;
+}
+  /**changes the color of the span**/
+
+span{
+  color: white
+}
+
+ /**this is the legend**/
+
+ legend{
+  font-family: cursive;
+  font-size: 20px;
+}
+
+/**this is the picture in the about page**/
+
+.img-wrap{width: 100%;}
+.img-wrap img{width: 100%; padding: 10px; border-radius: 40%;box-shadow: 0 0 10px #999999;
+}
+
+/**this is the form**/
+
+   form{
+     text-align: left;
+   }
+
+   /**this is the id*/
+
+   #text{
+     text-align: left;
+     color: rgb(100, 192, 100);
+   }
+    /**this is the bold text**/
+   b{
+     color: hsla(hue, saturation, lightness, alpha);
+   }
+   /**this is the paragraph in the checkbox**/
+ p{
+  font-weight: bolder;
+}
+
+#response{
+  background-color: rgb(51, 121, 51);
+  text-align: center;
+}
+
+#response h1{
+  font-family: cursive;
+  background-color: rgb(35, 139, 35);
+  
+}
+ 
+#response h2{
+  font-size: 25px;
+  color: rgb(12, 12, 34);
+  font-style: italic;
+  border-radius: dashed white;
+  padding: 5pc;
+}
+
+form{
+  
+  align-items: flex-start;
+  background-clip: content-box;
+}
+
+form b{
+  color: beige;
+}
+
+fieldset{
+  counter-increment: initial;
+}
+
+ ul{
+   align-items: center;
+ }
+
+ #moto{
+   
+   width: 100%;
+   background-size: 100%;
+ }
+ #home{
+   background-color: bisque;
+ }
+  button{
+    text-align: center;
+
+  }
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  input[type=submit]{
+    background-color: rgb(180, 154, 121);
+    padding: 10px;
+  }
+
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+form{
+  background: none;
+}
+
+.alert{
+  text-align: center;
+  background-color: #45a049;
+}
+  
